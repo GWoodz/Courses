@@ -1,4 +1,4 @@
-# Courses by [Coursetro](https://coursetro.com/)- Updating to Soildity 5.0
+# Courses by [Coursetro](https://coursetro.com/)- Updating to Soildity 5.0 by `Gregory Woodcox`
 Following and updating the Solidity Mappings & Structs Tutorial by [Coursetro](https://coursetro.com/posts/code/102/Solidity-Mappings-&-Structs-Tutorial)
 
 # Requirments:
