@@ -32,6 +32,7 @@ Following and updating the Solidity Mappings & Structs Tutorial by [Coursetro](h
 * Line 45, Once again add `memory` after every `string` in the function parameters `string memory _fName` & `string memory _lName`
  
 # Truffle Debugging
+--In terminal--
 `sudo truffle develop` 
 
  * Testing **setInstructor**
