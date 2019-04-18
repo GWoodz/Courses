@@ -34,19 +34,23 @@ Following and updating the Solidity Mappings & Structs Tutorial by [Coursetro](h
 # Truffle Debugging
 `sudo truffle develop` 
 
- * Testing `setInstructor`
+ * Testing **setInstructor**
+ 
     `Courses.deployed().then(function(instance){return instance.setInstructor("0x52032b347709949c595c19992438b3f7c0a6ce41", 42, "Bill", "Gates");})`
 <img src =ScreenshotFirst.png>
 
-* Testing `getInstructor`
+* Testing **getInstructor**
+
    `Courses.deployed().then(function(instance){return instance.getInstructor("0x52032b347709949c595c19992438b3f7c0a6ce41");})`
 <img src =ScreenshotSecond.png>
 
-* Testing `getInstructors`
-  `Courses.deployed().then(function(instance){return instance.getInstructors();})
-`
+* Testing **getInstructors**
+
+  `Courses.deployed().then(function(instance){return instance.getInstructors();})`
+  
 <img src =ScreenshotThird.png>
 
-* Testing `countInstructors`
+* Testing **countInstructors**
+
   `Courses.deployed().then(function(instance){return instance.countInstructor();})`
 <img src =ScreenshotLast.png>
