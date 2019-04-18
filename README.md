@@ -1,13 +1,14 @@
-# Courses - Updating  to Soildity 5.0
-
+# Courses by [Coursetro](https://coursetro.com/)- Updating to Soildity 5.0
+Following and updating the Solidity Mappings & Structs Tutorial by [Coursetro](https://coursetro.com/posts/code/102/Solidity-Mappings-&-Structs-Tutorial)
 
 # Requirments:
   -Supports
    * Linux 
-  
+   * Windows
+   * MacOS
 
 # Tools: 
- 
+ * truffle
 
 # Install:
 ### Git
@@ -15,20 +16,22 @@
 ### Zip
 * `wget -c https://github.com/GWoodz/Courses.git \ && unzip Courses\ && rm -f Courses`
 
-* `sudo mkdir Courses`
+
+# Running Program:
+* Open terminal
 * `cd Courses`
-* `sudo truffle init`
 * `sudo truffle compile`
 * `sudo truffle migrate --reset`
 
-
-
-# Truffle Develop
-<img src =development.png>
-
-# Running Program:
-* Open terminal and navigate by changing directory(Linux ex: `cd`) to folder `Courses`
-* 
  
 
-# Solution:
+# Update Solutions:
+* Line 20, the `Courses constructor()` can not have the same name as the contract and  was changed to `constructor()`
+* Line 25, `string _fName` & `string  _lName` has been changed to `string memory _fName` & `string memory _lName `
+* Line 29,  `var instructor = instructor[_address];` was deleted becasue `var` is disallowed in Solidity 5.0 and higher 
+* Line 45, Once again add `memory` after every `string` in the function parameters `string memory _fName` & `string memory _lName`
+ 
+# Truffle Develop
+- 
+
+<img src =development.png>
