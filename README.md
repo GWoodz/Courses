@@ -15,6 +15,14 @@
 ### Zip
 * `wget -c https://github.com/GWoodz/Courses.git \ && unzip Courses\ && rm -f Courses`
 
+* `sudo mkdir Courses`
+* `cd Courses`
+* `sudo truffle init`
+* `sudo truffle compile`
+* `sudo truffle migrate --reset`
+
+
+
 # Truffle Develop
 <img src =development.png>
 
