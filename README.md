@@ -31,7 +31,21 @@ Following and updating the Solidity Mappings & Structs Tutorial by [Coursetro](h
 * Line 29,  `var instructor = instructor[_address];` was deleted becasue `var` is disallowed in Solidity 5.0 and higher 
 * Line 45, Once again add `memory` after every `string` in the function parameters `string memory _fName` & `string memory _lName`
  
-# Truffle Develop
-- 
+# Truffle Debugging
+`sudo truffle develop` 
 
-<img src =development.png>
+ * Testing `setInstructor`
+    ``
+<img src =screenshotFirst.png>
+
+* Testing `getInstructor`
+   ``
+<img src =screenshotSecond.png>
+
+* Testing `getInstructors`
+  ``
+<img src =screenshotThird.png>
+
+* Testing `countInstructors`
+  ``
+<img src =screenshotLast.png>
