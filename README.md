@@ -36,16 +36,16 @@ Following and updating the Solidity Mappings & Structs Tutorial by [Coursetro](h
 
  * Testing `setInstructor`
     ``
-<img src =screenshotFirst.png>
+<img src =ScreenshotFirst.png>
 
 * Testing `getInstructor`
    ``
-<img src =screenshotSecond.png>
+<img src =ScreenshotSecond.png>
 
 * Testing `getInstructors`
   ``
-<img src =screenshotThird.png>
+<img src =ScreenshotThird.png>
 
 * Testing `countInstructors`
   ``
-<img src =screenshotLast.png>
+<img src =ScreenshotLast.png>
